@@ -4,23 +4,23 @@ import { FileText, ExternalLink, Box, Home, Layout } from 'lucide-react';
 // Yeh 3 Files aapke Assets folder se link hongi
 const pdfFiles = [
   {
-    name: "DESIGN TECH (1)",
+    name: "DESIGN TECH",
     description: "Complete architectural portfolio featuring Lakme and Hero showroom projects.",
-    path: "/public/DESIGN TECH.pdf",
+    path: "/public/DESIGN_TECH.pdf",
     icon: <Layout className="w-8 h-8" />,
     tag: "Master Portfolio"
   },
   {
     name: "Interiors Design",
     description: "Detailed visualization of the Surendra Villa project and luxury residential concepts.",
-    path: "/public/Interiors design.pdf",
+    path: "/public/Interiors_design.pdf",
     icon: <Home className="w-8 h-8" />,
     tag: "Residential"
   },
   {
     name: "Interiors Design Room",
     description: "Specific room-by-room interior renders and high-end finishing details.",
-    path: "/public/Interiors design room.pdf",
+    path: "/public/Interiors.pdf",
     icon: <Box className="w-8 h-8" />,
     tag: "Interior"
   }
